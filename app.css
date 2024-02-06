@@ -13,18 +13,10 @@ ul, li {
     list-style: none;
 }
 
-.navbar {
-    display: flex;
-}
 
-.navbar a {
-    color: white;
-    text-decoration: none;
-    padding:  10px;
-  }
 
 .container {
-    max-width: 1024px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -33,16 +25,8 @@ ul, li {
     flex-wrap: wrap;
 }
 
-.logo {
-    width: 100px;
-}
-
 .image_position {
     position: relative;
-}
-
-.background_navbar {
-    background-color: #FF6900;
 }
 
 .sconto {
@@ -96,4 +80,8 @@ ul, li {
 
 .section_margin {
     margin: 15px 15px;
+}
+
+.heart:hover {
+    color: red;
 }
