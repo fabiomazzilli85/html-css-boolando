@@ -6,6 +6,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
 
 .container {
@@ -38,6 +39,26 @@ body {
     padding: 3px 7px;
 }
 
+.heart {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    background-color: white;
+    color: black;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 7px;
+} 
+
+.sostenibilità_no_margin  {
+    position: absolute;
+    bottom: 20px;
+    background-color: green;
+    color: white;
+    padding: 3px 7px;
+}
+
 .image_size {
     width: 300px;
 }
@@ -52,5 +73,5 @@ body {
 }
 
 .section_margin {
-    margin: 0px 15px;
+    margin: 15px 15px;
 }
