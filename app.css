@@ -24,7 +24,6 @@ body {
 
 .sconto {
     position: absolute;
-    left: 20px;
     bottom: 20px;
     background-color: red;
     padding: 3px 7px;
@@ -32,7 +31,7 @@ body {
 
 .sostenibilità {
     position: absolute;
-    left: 70px;
+    left: 60px;
     bottom: 20px;
     background-color: green;
     color: white;
