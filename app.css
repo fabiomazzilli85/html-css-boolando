@@ -9,6 +9,20 @@ body {
     font-size: 15px;
 }
 
+ul, li {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding:  10px;
+  }
+
 .container {
     max-width: 1024px;
     margin: 0 auto;
@@ -19,8 +33,16 @@ body {
     flex-wrap: wrap;
 }
 
+.logo {
+    width: 100px;
+}
+
 .image_position {
     position: relative;
+}
+
+.background_navbar {
+    background-color: #FF6900;
 }
 
 .sconto {
