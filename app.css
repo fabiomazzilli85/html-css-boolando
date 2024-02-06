@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1024px;
     margin: 0 auto;
 }
 
@@ -50,4 +50,8 @@ body {
 .old_price {
     color: grey;
     text-decoration:line-through;
+}
+
+.section_margin {
+    margin: 0px 15px;
 }
