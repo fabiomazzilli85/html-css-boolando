@@ -13,10 +13,8 @@ ul, li {
     list-style: none;
 }
 
-
-
 .container {
-    max-width: 1000px;
+    max-width: 1024px;
     margin: 0 auto;
 }
 
@@ -27,6 +25,17 @@ ul, li {
 
 .image_position {
     position: relative;
+}
+
+.image_card .image_second {
+    display: none;
+}
+
+.image_card:hover .image_second {
+    display: block;
+}
+.image_card:hover .image_first {
+    display: none;
 }
 
 .sconto {
@@ -79,9 +88,14 @@ ul, li {
 }
 
 .section_margin {
-    margin: 15px 15px;
+    margin: 20px 20px;
 }
 
 .heart:hover {
     color: red;
+}
+
+h2 {
+    font-size: 17px;
+    text-transform: uppercase;
 }
