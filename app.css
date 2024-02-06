@@ -1,0 +1,33 @@
+.image_position {
+    position: relative;
+}
+
+.sconto {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    background-color: red;
+    padding: 3px 7px;
+}
+
+.sostenibilità {
+    position: absolute;
+    left: 70px;
+    bottom: 20px;
+    background-color: green;
+    color: white;
+    padding: 3px 7px;
+}
+
+.image_size {
+    width: 450px;
+}
+
+.price {
+    color: red;
+}
+
+.old_price {
+    color: grey;
+    text-decoration:line-through;
+}
